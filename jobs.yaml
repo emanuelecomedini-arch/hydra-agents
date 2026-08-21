@@ -1,0 +1,24 @@
+# Coda di job di esempio per HYDRA Agents.
+# Modifica liberamente questo file: è la "coda di scheduling" che gli agenti leggono a ogni ciclo.
+#
+# flexible: true  -> il job può essere instradato dall'agente verso la regione a minor stress
+# flexible: false -> il job resta sempre nella regione locale (es. inferenza in tempo reale)
+
+- name: training-llm-7b
+  type: training
+  flexible: true
+  flex_window_hours: 24
+
+- name: finetune-vision-v3
+  type: finetune
+  flexible: true
+  flex_window_hours: 6
+
+- name: batch-embed-nightly
+  type: batch
+  flexible: true
+  flex_window_hours: 12
+
+- name: inference-api-live
+  type: inference
+  flexible: false

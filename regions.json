@@ -1,0 +1,7 @@
+[
+  { "code": "US-EAST", "name": "Virginia", "lat": 37.54, "lon": -77.43, "baseline_stress": 55 },
+  { "code": "EU-WEST", "name": "Dublino", "lat": 53.35, "lon": -6.26, "baseline_stress": 25 },
+  { "code": "AP-SE", "name": "Singapore", "lat": 1.35, "lon": 103.82, "baseline_stress": 40 },
+  { "code": "SA-EAST", "name": "São Paulo", "lat": -23.55, "lon": -46.63, "baseline_stress": 30 },
+  { "code": "US-SW", "name": "Phoenix", "lat": 33.45, "lon": -112.07, "baseline_stress": 85 }
+]

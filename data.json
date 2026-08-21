@@ -1,0 +1,80 @@
+{
+  "last_updated": "2026-08-17T10:49:47+00:00",
+  "is_example": true,
+  "regions": [
+    {
+      "code": "US-EAST",
+      "name": "Virginia",
+      "stress": 73,
+      "weather": {
+        "temperature_c": 33.4,
+        "precipitation_today_mm": 0.0,
+        "precipitation_now_mm": 0.0
+      }
+    },
+    {
+      "code": "EU-WEST",
+      "name": "Dublino",
+      "stress": 25,
+      "weather": {
+        "temperature_c": 17.2,
+        "precipitation_today_mm": 6.1,
+        "precipitation_now_mm": 0.2
+      }
+    },
+    {
+      "code": "AP-SE",
+      "name": "Singapore",
+      "stress": 46,
+      "weather": {
+        "temperature_c": 30.8,
+        "precipitation_today_mm": 3.5,
+        "precipitation_now_mm": 0.0
+      }
+    },
+    {
+      "code": "SA-EAST",
+      "name": "São Paulo",
+      "stress": 30,
+      "weather": {
+        "temperature_c": 19.6,
+        "precipitation_today_mm": 4.0,
+        "precipitation_now_mm": 0.0
+      }
+    },
+    {
+      "code": "US-SW",
+      "name": "Phoenix",
+      "stress": 97,
+      "weather": {
+        "temperature_c": 40.1,
+        "precipitation_today_mm": 0.0,
+        "precipitation_now_mm": 0.0
+      }
+    }
+  ],
+  "decisions": [
+    {
+      "job": "training-llm-7b",
+      "region": "EU-WEST",
+      "rationale": "Regola semplice (modalità gratuita): Dublino ha lo stress idrico più basso attualmente (25%)."
+    },
+    {
+      "job": "finetune-vision-v3",
+      "region": "EU-WEST",
+      "rationale": "Regola semplice (modalità gratuita): Dublino ha lo stress idrico più basso attualmente (25%)."
+    },
+    {
+      "job": "batch-embed-nightly",
+      "region": "EU-WEST",
+      "rationale": "Regola semplice (modalità gratuita): Dublino ha lo stress idrico più basso attualmente (25%)."
+    },
+    {
+      "job": "inference-api-live",
+      "region": "locale",
+      "rationale": "Job non flessibile: eseguito nella regione di origine, non instradabile."
+    }
+  ],
+  "liters_avoided_total": 86.4,
+  "liters_avoided_this_run": 86.4
+}
