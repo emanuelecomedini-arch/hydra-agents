@@ -1,0 +1,37 @@
+name: HYDRA Agents
+
+on:
+  schedule:
+    - cron: "0 */6 * * *"   # ogni 6 ore — gratuito su repository pubblici
+  workflow_dispatch: {}       # ti permette anche di lanciarlo a mano dalla tab "Actions" su GitHub
+
+permissions:
+  contents: write
+
+jobs:
+  run-agents:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Installa le dipendenze
+        run: pip install -r requirements.txt
+
+      - name: Esegui il ciclo di agenti HYDRA
+        env:
+          # Facoltativa: se non la imposti nei Secrets del repository, il sistema
+          # funziona comunque, in modalità gratuita a regola semplice.
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python orchestrate.py
+
+      - name: Salva i risultati nel repository
+        run: |
+          git config user.name "hydra-agents-bot"
+          git config user.email "actions@github.com"
+          git add data.json state.json log.md
+          git diff --quiet --cached || git commit -m "Ciclo HYDRA agents: aggiornamento automatico"
+          git push
