@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-08-24T19:19:16+00:00",
+  "last_updated": "2026-08-25T03:15:39+00:00",
   "regions": [
     {
       "code": "US-EAST",
       "name": "Virginia",
-      "stress": 67,
+      "stress": 61,
       "weather": {
-        "temperature_c": 30.2,
+        "temperature_c": 20.5,
         "precipitation_today_mm": 0.0,
         "precipitation_now_mm": 0.0
       }
@@ -14,20 +14,20 @@
     {
       "code": "EU-WEST",
       "name": "Dublino",
-      "stress": 31,
+      "stress": 25,
       "weather": {
-        "temperature_c": 18.7,
-        "precipitation_today_mm": 0.0,
+        "temperature_c": 16.9,
+        "precipitation_today_mm": 1.3,
         "precipitation_now_mm": 0.0
       }
     },
     {
       "code": "AP-SE",
       "name": "Singapore",
-      "stress": 30,
+      "stress": 46,
       "weather": {
-        "temperature_c": 25.9,
-        "precipitation_today_mm": 9.9,
+        "temperature_c": 31.6,
+        "precipitation_today_mm": 5.1,
         "precipitation_now_mm": 0.0
       }
     },
@@ -36,8 +36,8 @@
       "name": "São Paulo",
       "stress": 30,
       "weather": {
-        "temperature_c": 16.3,
-        "precipitation_today_mm": 0.7,
+        "temperature_c": 13.6,
+        "precipitation_today_mm": 0.9,
         "precipitation_now_mm": 0.0
       }
     },
@@ -46,7 +46,7 @@
       "name": "Phoenix",
       "stress": 97,
       "weather": {
-        "temperature_c": 38.5,
+        "temperature_c": 35.9,
         "precipitation_today_mm": 0.0,
         "precipitation_now_mm": 0.0
       }
@@ -55,18 +55,18 @@
   "decisions": [
     {
       "job": "training-llm-7b",
-      "region": "AP-SE",
-      "rationale": "Regola semplice (modalità gratuita): Singapore ha lo stress idrico più basso attualmente (30%)."
+      "region": "EU-WEST",
+      "rationale": "Regola semplice (modalità gratuita): Dublino ha lo stress idrico più basso attualmente (25%)."
     },
     {
       "job": "finetune-vision-v3",
-      "region": "AP-SE",
-      "rationale": "Regola semplice (modalità gratuita): Singapore ha lo stress idrico più basso attualmente (30%)."
+      "region": "EU-WEST",
+      "rationale": "Regola semplice (modalità gratuita): Dublino ha lo stress idrico più basso attualmente (25%)."
     },
     {
       "job": "batch-embed-nightly",
-      "region": "AP-SE",
-      "rationale": "Regola semplice (modalità gratuita): Singapore ha lo stress idrico più basso attualmente (30%)."
+      "region": "EU-WEST",
+      "rationale": "Regola semplice (modalità gratuita): Dublino ha lo stress idrico più basso attualmente (25%)."
     },
     {
       "job": "inference-api-live",
@@ -74,6 +74,6 @@
       "rationale": "Job non flessibile: eseguito nella regione di origine, non instradabile."
     }
   ],
-  "liters_avoided_total": 1125.6,
-  "liters_avoided_this_run": 80.4
+  "liters_avoided_total": 1212.0,
+  "liters_avoided_this_run": 86.4
 }
