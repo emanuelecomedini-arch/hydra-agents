@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-08-31T00:03:13+00:00",
+  "last_updated": "2026-08-31T06:03:08+00:00",
   "regions": [
     {
       "code": "US-EAST",
       "name": "Virginia",
-      "stress": 67,
+      "stress": 61,
       "weather": {
-        "temperature_c": 27.5,
+        "temperature_c": 22.1,
         "precipitation_today_mm": 0.0,
         "precipitation_now_mm": 0.0
       }
@@ -16,9 +16,9 @@
       "name": "Dublino",
       "stress": 31,
       "weather": {
-        "temperature_c": 15.5,
+        "temperature_c": 15.0,
         "precipitation_today_mm": 0.2,
-        "precipitation_now_mm": 0.0
+        "precipitation_now_mm": 0.1
       }
     },
     {
@@ -26,9 +26,9 @@
       "name": "Singapore",
       "stress": 46,
       "weather": {
-        "temperature_c": 27.1,
-        "precipitation_today_mm": 3.2,
-        "precipitation_now_mm": 0.0
+        "temperature_c": 31.8,
+        "precipitation_today_mm": 4.3,
+        "precipitation_now_mm": 0.1
       }
     },
     {
@@ -36,19 +36,19 @@
       "name": "São Paulo",
       "stress": 30,
       "weather": {
-        "temperature_c": 20.6,
-        "precipitation_today_mm": 4.9,
-        "precipitation_now_mm": 0.2
+        "temperature_c": 18.8,
+        "precipitation_today_mm": 2.2,
+        "precipitation_now_mm": 0.0
       }
     },
     {
       "code": "US-SW",
       "name": "Phoenix",
-      "stress": 97,
+      "stress": 85,
       "weather": {
-        "temperature_c": 40.1,
-        "precipitation_today_mm": 0.0,
-        "precipitation_now_mm": 0.0
+        "temperature_c": 24.2,
+        "precipitation_today_mm": 1.7,
+        "precipitation_now_mm": 0.3
       }
     }
   ],
@@ -74,6 +74,6 @@
       "rationale": "Job non flessibile: eseguito nella regione di origine, non instradabile."
     }
   ],
-  "liters_avoided_total": 2721.6,
-  "liters_avoided_this_run": 80.4
+  "liters_avoided_total": 2787.6,
+  "liters_avoided_this_run": 66.0
 }
