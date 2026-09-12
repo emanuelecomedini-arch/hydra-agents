@@ -1,13 +1,13 @@
 {
-  "last_updated": "2026-09-12T12:05:26+00:00",
+  "last_updated": "2026-09-12T18:05:17+00:00",
   "regions": [
     {
       "code": "US-EAST",
       "name": "Virginia",
-      "stress": 55,
+      "stress": 51,
       "weather": {
-        "temperature_c": 23.3,
-        "precipitation_today_mm": 0.3,
+        "temperature_c": 26.3,
+        "precipitation_today_mm": 11.6,
         "precipitation_now_mm": 0.0
       }
     },
@@ -16,18 +16,18 @@
       "name": "Dublino",
       "stress": 25,
       "weather": {
-        "temperature_c": 20.2,
-        "precipitation_today_mm": 1.1,
+        "temperature_c": 20.4,
+        "precipitation_today_mm": 0.7,
         "precipitation_now_mm": 0.0
       }
     },
     {
       "code": "AP-SE",
       "name": "Singapore",
-      "stress": 46,
+      "stress": 40,
       "weather": {
-        "temperature_c": 27.2,
-        "precipitation_today_mm": 6.7,
+        "temperature_c": 25.3,
+        "precipitation_today_mm": 1.0,
         "precipitation_now_mm": 0.0
       }
     },
@@ -36,19 +36,17 @@
       "name": "São Paulo",
       "stress": 20,
       "weather": {
-        "temperature_c": 19.6,
-        "precipitation_today_mm": 29.3,
-        "precipitation_now_mm": 0.3
+        "temperature_c": 22.9,
+        "precipitation_today_mm": 35.3,
+        "precipitation_now_mm": 0.0
       }
     },
     {
       "code": "US-SW",
       "name": "Phoenix",
-      "stress": 97,
+      "stress": 85,
       "weather": {
-        "temperature_c": 30.1,
-        "precipitation_today_mm": 0.0,
-        "precipitation_now_mm": 0.0
+        "error": "HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=15)"
       }
     }
   ],
@@ -74,6 +72,6 @@
       "rationale": "Job non flessibile: eseguito nella regione di origine, non instradabile."
     }
   ],
-  "liters_avoided_total": 7101.6,
-  "liters_avoided_this_run": 92.4
+  "liters_avoided_total": 7179.6,
+  "liters_avoided_this_run": 78.0
 }
