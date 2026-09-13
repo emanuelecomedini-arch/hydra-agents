@@ -1,33 +1,33 @@
 {
-  "last_updated": "2026-09-12T18:05:17+00:00",
+  "last_updated": "2026-09-13T00:06:05+00:00",
   "regions": [
     {
       "code": "US-EAST",
       "name": "Virginia",
-      "stress": 51,
+      "stress": 45,
       "weather": {
-        "temperature_c": 26.3,
-        "precipitation_today_mm": 11.6,
+        "temperature_c": 22.7,
+        "precipitation_today_mm": 13.8,
         "precipitation_now_mm": 0.0
       }
     },
     {
       "code": "EU-WEST",
       "name": "Dublino",
-      "stress": 25,
+      "stress": 31,
       "weather": {
-        "temperature_c": 20.4,
-        "precipitation_today_mm": 0.7,
+        "temperature_c": 18.2,
+        "precipitation_today_mm": 0.0,
         "precipitation_now_mm": 0.0
       }
     },
     {
       "code": "AP-SE",
       "name": "Singapore",
-      "stress": 40,
+      "stress": 46,
       "weather": {
-        "temperature_c": 25.3,
-        "precipitation_today_mm": 1.0,
+        "temperature_c": 27.2,
+        "precipitation_today_mm": 0.7,
         "precipitation_now_mm": 0.0
       }
     },
@@ -36,17 +36,19 @@
       "name": "São Paulo",
       "stress": 20,
       "weather": {
-        "temperature_c": 22.9,
-        "precipitation_today_mm": 35.3,
-        "precipitation_now_mm": 0.0
+        "temperature_c": 16.4,
+        "precipitation_today_mm": 39.5,
+        "precipitation_now_mm": 0.1
       }
     },
     {
       "code": "US-SW",
       "name": "Phoenix",
-      "stress": 85,
+      "stress": 97,
       "weather": {
-        "error": "HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=15)"
+        "temperature_c": 38.7,
+        "precipitation_today_mm": 0.0,
+        "precipitation_now_mm": 0.0
       }
     }
   ],
@@ -72,6 +74,6 @@
       "rationale": "Job non flessibile: eseguito nella regione di origine, non instradabile."
     }
   ],
-  "liters_avoided_total": 7179.6,
-  "liters_avoided_this_run": 78.0
+  "liters_avoided_total": 7272.0,
+  "liters_avoided_this_run": 92.4
 }
