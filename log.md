@@ -2637,3 +2637,20 @@ Litri stimati evitati in questo ciclo: **98.4 L** (totale cumulativo dall'avvio:
 - **inference-api-live** → `locale` — Job non flessibile: eseguito nella regione di origine, non instradabile.
 
 Litri stimati evitati in questo ciclo: **85.2 L** (totale cumulativo dall'avvio: 13197.6 L)
+
+## Ciclo 2026-10-01T12:05:59+00:00
+
+| Regione | Stress idrico | Job instradati |
+|---|---|---|
+| Virginia (US-EAST) | 61% | — |
+| Dublino (EU-WEST) | 31% | — |
+| Singapore (AP-SE) | 46% | — |
+| São Paulo (SA-EAST) | 26% | training-llm-7b, finetune-vision-v3, batch-embed-nightly |
+| Phoenix (US-SW) | 91% | — |
+
+- **training-llm-7b** → `SA-EAST` — Regola semplice (modalità gratuita): São Paulo ha lo stress idrico più basso attualmente (26%).
+- **finetune-vision-v3** → `SA-EAST` — Regola semplice (modalità gratuita): São Paulo ha lo stress idrico più basso attualmente (26%).
+- **batch-embed-nightly** → `SA-EAST` — Regola semplice (modalità gratuita): São Paulo ha lo stress idrico più basso attualmente (26%).
+- **inference-api-live** → `locale` — Job non flessibile: eseguito nella regione di origine, non instradabile.
+
+Litri stimati evitati in questo ciclo: **78.0 L** (totale cumulativo dall'avvio: 13275.6 L)
