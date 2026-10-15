@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-10-15T15:59:46+00:00",
+  "last_updated": "2026-10-15T20:44:42+00:00",
   "regions": [
     {
       "code": "US-EAST",
       "name": "Virginia",
       "stress": 61,
       "weather": {
-        "temperature_c": 21.5,
+        "temperature_c": 19.7,
         "precipitation_today_mm": 0.0,
         "precipitation_now_mm": 0.0
       }
@@ -16,7 +16,7 @@
       "name": "Dublino",
       "stress": 15,
       "weather": {
-        "temperature_c": 14.2,
+        "temperature_c": 12.5,
         "precipitation_today_mm": 8.1,
         "precipitation_now_mm": 0.0
       }
@@ -24,10 +24,10 @@
     {
       "code": "AP-SE",
       "name": "Singapore",
-      "stress": 30,
+      "stress": 40,
       "weather": {
-        "temperature_c": 25.9,
-        "precipitation_today_mm": 10.3,
+        "temperature_c": 24.7,
+        "precipitation_today_mm": 7.4,
         "precipitation_now_mm": 0.0
       }
     },
@@ -36,17 +36,17 @@
       "name": "São Paulo",
       "stress": 30,
       "weather": {
-        "temperature_c": 24.8,
-        "precipitation_today_mm": 6.9,
+        "temperature_c": 24.6,
+        "precipitation_today_mm": 5.7,
         "precipitation_now_mm": 0.1
       }
     },
     {
       "code": "US-SW",
       "name": "Phoenix",
-      "stress": 91,
+      "stress": 97,
       "weather": {
-        "temperature_c": 20.6,
+        "temperature_c": 29.9,
         "precipitation_today_mm": 0.0,
         "precipitation_now_mm": 0.0
       }
@@ -74,6 +74,6 @@
       "rationale": "Job non flessibile: eseguito nella regione di origine, non instradabile."
     }
   ],
-  "liters_avoided_total": 17353.2,
-  "liters_avoided_this_run": 91.2
+  "liters_avoided_total": 17451.6,
+  "liters_avoided_this_run": 98.4
 }
