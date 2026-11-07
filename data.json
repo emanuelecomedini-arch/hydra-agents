@@ -1,23 +1,23 @@
 {
-  "last_updated": "2026-11-07T03:49:23+00:00",
+  "last_updated": "2026-11-07T12:08:29+00:00",
   "regions": [
     {
       "code": "US-EAST",
       "name": "Virginia",
-      "stress": 45,
+      "stress": 56,
       "weather": {
-        "temperature_c": 11.1,
-        "precipitation_today_mm": 10.1,
+        "temperature_c": 9.8,
+        "precipitation_today_mm": 0.0,
         "precipitation_now_mm": 0.0
       }
     },
     {
       "code": "EU-WEST",
       "name": "Dublino",
-      "stress": 10,
+      "stress": 31,
       "weather": {
-        "temperature_c": 8.9,
-        "precipitation_today_mm": 9.3,
+        "temperature_c": 10.4,
+        "precipitation_today_mm": 0.0,
         "precipitation_now_mm": 0.0
       }
     },
@@ -26,18 +26,18 @@
       "name": "Singapore",
       "stress": 46,
       "weather": {
-        "temperature_c": 31.4,
-        "precipitation_today_mm": 4.6,
+        "temperature_c": 26.8,
+        "precipitation_today_mm": 2.2,
         "precipitation_now_mm": 0.0
       }
     },
     {
       "code": "SA-EAST",
       "name": "São Paulo",
-      "stress": 30,
+      "stress": 36,
       "weather": {
-        "temperature_c": 19.3,
-        "precipitation_today_mm": 7.4,
+        "temperature_c": 28.1,
+        "precipitation_today_mm": 7.0,
         "precipitation_now_mm": 0.0
       }
     },
@@ -46,7 +46,7 @@
       "name": "Phoenix",
       "stress": 91,
       "weather": {
-        "temperature_c": 19.1,
+        "temperature_c": 16.1,
         "precipitation_today_mm": 0.0,
         "precipitation_now_mm": 0.0
       }
@@ -56,17 +56,17 @@
     {
       "job": "training-llm-7b",
       "region": "EU-WEST",
-      "rationale": "Regola semplice (modalità gratuita): Dublino ha lo stress idrico più basso attualmente (10%)."
+      "rationale": "Regola semplice (modalità gratuita): Dublino ha lo stress idrico più basso attualmente (31%)."
     },
     {
       "job": "finetune-vision-v3",
       "region": "EU-WEST",
-      "rationale": "Regola semplice (modalità gratuita): Dublino ha lo stress idrico più basso attualmente (10%)."
+      "rationale": "Regola semplice (modalità gratuita): Dublino ha lo stress idrico più basso attualmente (31%)."
     },
     {
       "job": "batch-embed-nightly",
       "region": "EU-WEST",
-      "rationale": "Regola semplice (modalità gratuita): Dublino ha lo stress idrico più basso attualmente (10%)."
+      "rationale": "Regola semplice (modalità gratuita): Dublino ha lo stress idrico più basso attualmente (31%)."
     },
     {
       "job": "inference-api-live",
@@ -74,6 +74,6 @@
       "rationale": "Job non flessibile: eseguito nella regione di origine, non instradabile."
     }
   ],
-  "liters_avoided_total": 24022.8,
-  "liters_avoided_this_run": 97.2
+  "liters_avoided_total": 24094.8,
+  "liters_avoided_this_run": 72.0
 }
