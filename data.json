@@ -1,54 +1,44 @@
 {
-  "last_updated": "2026-11-22T13:48:14+00:00",
+  "last_updated": "2026-11-22T22:59:24+00:00",
   "regions": [
     {
       "code": "US-EAST",
       "name": "Virginia",
       "stress": 55,
       "weather": {
-        "temperature_c": 14.2,
-        "precipitation_today_mm": 0.9,
-        "precipitation_now_mm": 0.0
+        "error": "429 Client Error: Too Many Requests for url: https://api.open-meteo.com/v1/forecast?latitude=37.54&longitude=-77.43&current=temperature_2m%2Cprecipitation&daily=precipitation_sum&timezone=auto&forecast_days=1"
       }
     },
     {
       "code": "EU-WEST",
       "name": "Dublino",
-      "stress": 20,
+      "stress": 25,
       "weather": {
-        "temperature_c": 8.8,
-        "precipitation_today_mm": 2.2,
-        "precipitation_now_mm": 0.1
+        "error": "429 Client Error: Too Many Requests for url: https://api.open-meteo.com/v1/forecast?latitude=53.35&longitude=-6.26&current=temperature_2m%2Cprecipitation&daily=precipitation_sum&timezone=auto&forecast_days=1"
       }
     },
     {
       "code": "AP-SE",
       "name": "Singapore",
-      "stress": 46,
+      "stress": 40,
       "weather": {
-        "temperature_c": 26.1,
-        "precipitation_today_mm": 4.1,
-        "precipitation_now_mm": 0.0
+        "error": "429 Client Error: Too Many Requests for url: https://api.open-meteo.com/v1/forecast?latitude=1.35&longitude=103.82&current=temperature_2m%2Cprecipitation&daily=precipitation_sum&timezone=auto&forecast_days=1"
       }
     },
     {
       "code": "SA-EAST",
       "name": "São Paulo",
-      "stress": 36,
+      "stress": 30,
       "weather": {
-        "temperature_c": 29.5,
-        "precipitation_today_mm": 7.6,
-        "precipitation_now_mm": 0.0
+        "error": "429 Client Error: Too Many Requests for url: https://api.open-meteo.com/v1/forecast?latitude=-23.55&longitude=-46.63&current=temperature_2m%2Cprecipitation&daily=precipitation_sum&timezone=auto&forecast_days=1"
       }
     },
     {
       "code": "US-SW",
       "name": "Phoenix",
-      "stress": 86,
+      "stress": 85,
       "weather": {
-        "temperature_c": 7.8,
-        "precipitation_today_mm": 0.0,
-        "precipitation_now_mm": 0.0
+        "error": "429 Client Error: Too Many Requests for url: https://api.open-meteo.com/v1/forecast?latitude=33.45&longitude=-112.07&current=temperature_2m%2Cprecipitation&daily=precipitation_sum&timezone=auto&forecast_days=1"
       }
     }
   ],
@@ -56,17 +46,17 @@
     {
       "job": "training-llm-7b",
       "region": "EU-WEST",
-      "rationale": "Regola semplice (modalità gratuita): Dublino ha lo stress idrico più basso attualmente (20%)."
+      "rationale": "Regola semplice (modalità gratuita): Dublino ha lo stress idrico più basso attualmente (25%)."
     },
     {
       "job": "finetune-vision-v3",
       "region": "EU-WEST",
-      "rationale": "Regola semplice (modalità gratuita): Dublino ha lo stress idrico più basso attualmente (20%)."
+      "rationale": "Regola semplice (modalità gratuita): Dublino ha lo stress idrico più basso attualmente (25%)."
     },
     {
       "job": "batch-embed-nightly",
       "region": "EU-WEST",
-      "rationale": "Regola semplice (modalità gratuita): Dublino ha lo stress idrico più basso attualmente (20%)."
+      "rationale": "Regola semplice (modalità gratuita): Dublino ha lo stress idrico più basso attualmente (25%)."
     },
     {
       "job": "inference-api-live",
@@ -74,6 +64,6 @@
       "rationale": "Job non flessibile: eseguito nella regione di origine, non instradabile."
     }
   ],
-  "liters_avoided_total": 27400.8,
-  "liters_avoided_this_run": 79.2
+  "liters_avoided_total": 27472.8,
+  "liters_avoided_this_run": 72.0
 }
